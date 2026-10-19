@@ -6,7 +6,7 @@
 
 CUDA-accelerated N-body gravitational simulation, supporting three force algorithms and real-time OpenGL visualization.
 
-[![CI](https://github.com/build-workbench/nbody-gpu-sim/actions/workflows/ci.yml/badge.svg)](https://github.com/build-workbench/nbody-gpu-sim/actions/workflows/ci.yml)
+[![CI](https://github.com/holtwood-projects/nbody-gpu-sim/actions/workflows/ci.yml/badge.svg)](https://github.com/holtwood-projects/nbody-gpu-sim/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=c%2B%2B&logoColor=white)](CMakeLists.txt)
 [![CUDA 11.8+](https://img.shields.io/badge/CUDA-11.8+-76B900?logo=nvidia&logoColor=white)](CMakeLists.txt)
@@ -19,7 +19,7 @@ CUDA-accelerated N-body gravitational simulation, supporting three force algorit
 ## Quick Start
 
 ```bash
-git clone https://github.com/build-workbench/nbody-gpu-sim.git
+git clone https://github.com/holtwood-projects/nbody-gpu-sim.git
 cd nbody-gpu-sim
 ./scripts/build.sh
 ./build/nbody_sim 100000        # 10 万粒子
@@ -53,12 +53,12 @@ Run tests: `./scripts/test.sh`  ·  JSON performance benchmark: `./scripts/bench
 
 ## Documentation
 
-- Online documentation (demo site): <https://build-workbench.github.io/nbody-gpu-sim/>
+- Online documentation (demo site): <https://holtwood-projects.github.io/nbody-gpu-sim/>
 - Detailed guide: [`docs/`](docs/)  ·  Examples: [`examples/`](examples/)
 
 ## License
 
-[MIT](LICENSE) © build-workbench
+[MIT](LICENSE) © holtwood-projects
 
 ---
 
@@ -69,7 +69,7 @@ Run tests: `./scripts/test.sh`  ·  JSON performance benchmark: `./scripts/bench
 
 CUDA 加速的 N 体引力模拟,支持三种力算法与 OpenGL 实时可视化。
 
-[![CI](https://github.com/build-workbench/nbody-gpu-sim/actions/workflows/ci.yml/badge.svg)](https://github.com/build-workbench/nbody-gpu-sim/actions/workflows/ci.yml)
+[![CI](https://github.com/holtwood-projects/nbody-gpu-sim/actions/workflows/ci.yml/badge.svg)](https://github.com/holtwood-projects/nbody-gpu-sim/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=c%2B%2B&logoColor=white)](CMakeLists.txt)
 [![CUDA 11.8+](https://img.shields.io/badge/CUDA-11.8+-76B900?logo=nvidia&logoColor=white)](CMakeLists.txt)
@@ -82,7 +82,7 @@ CUDA 加速的 N 体引力模拟,支持三种力算法与 OpenGL 实时可视化
 ## 快速开始
 
 ```bash
-git clone https://github.com/build-workbench/nbody-gpu-sim.git
+git clone https://github.com/holtwood-projects/nbody-gpu-sim.git
 cd nbody-gpu-sim
 ./scripts/build.sh
 ./build/nbody_sim 100000        # 10 万粒子
@@ -116,9 +116,9 @@ cd nbody-gpu-sim
 
 ## 文档
 
-- 在线文档(演示站点):<https://build-workbench.github.io/nbody-gpu-sim/>
+- 在线文档(演示站点):<https://holtwood-projects.github.io/nbody-gpu-sim/>
 - 详细指南: [`docs/`](docs/)  ·  示例: [`examples/`](examples/)
 
 ## License
 
-[MIT](LICENSE) © build-workbench
+[MIT](LICENSE) © holtwood-projects
