@@ -21,11 +21,11 @@ export default defineConfig({
 
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/build-workbench/nbody-gpu-sim' },
+      { icon: 'github', link: 'https://github.com/holtwood-projects/nbody-gpu-sim' },
     ],
     footer: {
       message: '基于 MIT 许可证发布。',
-      copyright: '版权所有 © 2024-2026 build-workbench',
+      copyright: '版权所有 © 2024-2026 holtwood-projects',
     },
   },
 

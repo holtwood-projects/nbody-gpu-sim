@@ -8,7 +8,7 @@
     "quality_profile": "showcase",
     "visual_preset": "classic",
     "repository": {
-      "url": "https://github.com/build-workbench/nbody-gpu-sim",
+      "url": "https://github.com/holtwood-projects/nbody-gpu-sim",
       "revision": "cdeef81b3b4d13ab924c2b504443a9c710ca3ace"
     },
     "views": [

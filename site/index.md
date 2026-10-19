@@ -109,7 +109,7 @@ layout: home
   <div class="quick-start-title">构建与运行</div>
   <div class="quick-start-content">
     <div class="command-block">
-      <code>git clone https://github.com/build-workbench/nbody-gpu-sim.git<br>cd nbody-gpu-sim<br>./scripts/build.sh<br>./build/nbody_sim 100000</code>
+      <code>git clone https://github.com/holtwood-projects/nbody-gpu-sim.git<br>cd nbody-gpu-sim<br>./scripts/build.sh<br>./build/nbody_sim 100000</code>
     </div>
     <p>依赖：NVIDIA GPU（支持 CUDA）、CUDA Toolkit 11+、CMake 3.18+、OpenGL 3.3+</p>
   </div>
@@ -147,9 +147,9 @@ layout: home
 ```bibtex
 @software{nbody2026,
   title = {nbody-gpu-sim: Million-Particle GPU N-Body Simulation},
-  author = {build-workbench},
+  author = {holtwood-projects},
   year = {2026},
-  url = {https://github.com/build-workbench/nbody-gpu-sim},
+  url = {https://github.com/holtwood-projects/nbody-gpu-sim},
   version = {2.1.0},
   note = {CUDA-accelerated N-body simulation with real-time visualization}
 }
@@ -159,4 +159,4 @@ layout: home
 
 ## 链接
 
-- [GitHub](https://github.com/build-workbench/nbody-gpu-sim) - 源代码和问题反馈
+- [GitHub](https://github.com/holtwood-projects/nbody-gpu-sim) - 源代码和问题反馈
