@@ -8,13 +8,13 @@ option(NBODY_ENABLE_PROFILING "Enable built-in profiling instrumentation" OFF)
 
 if(NBODY_ENABLE_CUDA)
     project(NBodySimulation
-        VERSION 2.1.0
+        VERSION 2.2.0
         DESCRIPTION "GPU-accelerated N-Body particle simulation with real-time visualization"
         LANGUAGES CXX CUDA
     )
 else()
     project(NBodySimulation
-        VERSION 2.1.0
+        VERSION 2.2.0
         DESCRIPTION "N-Body particle simulation with real-time visualization"
         LANGUAGES CXX
     )

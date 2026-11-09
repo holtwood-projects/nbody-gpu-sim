@@ -13,6 +13,7 @@ nbody-gpu-sim 是一个基于 CUDA 加速的 N 体粒子模拟系统，提供实
 
 ### 变更
 
+- 构建元数据版本由 2.1.0 对齐到已发布的 v2.2.0（`CMakeLists.txt` 的 CUDA 与非 CUDA 两条 `project()` 声明）。
 - 项目与仓库更名为 nbody-gpu-sim（原 n-body），README 重写为功能/算法/CLI/架构完整章节，LICENSE 版权归属改为 Vibe Knight。
 - 文档与站点统一中文化：README 中文升为主文档，删除 README.zh-CN.md 与站点 en/zh-CN 双语及语言跳转，架构图改纯文本并移除 mermaid 依赖。
 - 大幅精简项目：4 个 AI 指令文件合并为单一 AGENTS.md，删除治理模板与 30+ 冗余子页面，去除头文件 doxygen 样板注释，markdown 文件从 68 个降至 10 个。
